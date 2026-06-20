@@ -9,7 +9,6 @@ public class Main {
     private static TreeMap<Integer, Job> backgroundJobs = new TreeMap<>();
 
     static {
-        // Detect if standard input/output are attached to an interactive terminal console
         isTty = (System.console() != null);
     }
 
